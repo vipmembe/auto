@@ -2,7 +2,7 @@
 
 I started this project to provide a non-complex way for IOS Jailbreak tweak developers to host packages and depictions on their personal repositories. What started as a hobby has become one of the most popular Cydia repo templates - 272 forks and 173 stars as of this writing.
 
-But life catches up and what was a hobby now has reached it's time to wind down. 
+But life catches up and what was a hobby now has reached it's time to wind down.
 
 Thank you for all the support.
 
@@ -18,7 +18,7 @@ Most data for this repo is stored on XML files and are loaded on the depiction p
 
 ### 1. Download
 
-If you are *not* hosting your repo on [Github Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/supermamon/Reposi3/archive/master.zip) and extract to a subfolder on your website.
+If you are _not_ hosting your repo on [Github Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/supermamon/Reposi3/archive/master.zip) and extract to a subfolder on your website.
 
 There are 2 options for those using [Github Pages](https://pages.github.com/).
 
@@ -27,7 +27,6 @@ A. If you want to use your root `username.github.io` as your repo, fork this rep
 B. If you want to use a subfolder for your existing `username.github.io` as your repo (example `username.github.io/repo`), fork this repo and rename it to `repo`. So when adding it in Cydia, use `https://username.github.io/repo`.
 
 You can change `repo` to anything you want, like `cydia` for example. So your repo url would be `https://username.github.io/cydia`.
-
 
 #### 2. Personalize
 
@@ -46,15 +45,13 @@ Edit `Release` file. Modify the items pointed by `<--`
 
 **Branding**
 
-
-
 Edit `index.html`
-* Change the page title in the `<title>Reposi3</title>` tag
-* See lines 20 and 21.
-* Change line 20 into your own **brand** and line 21 to have your own URL.
-* Line2 30-51 contains the list of featured packages. You can edit those or remove them totally.
-* Replace CydiaIcon.png.
 
+- Change the page title in the `<title>Reposi3</title>` tag
+- See lines 20 and 21.
+- Change line 20 into your own **brand** and line 21 to have your own URL.
+- Line2 30-51 contains the list of featured packages. You can edit those or remove them totally.
+- Replace CydiaIcon.png.
 
 **Page Footers**
 
@@ -77,8 +74,8 @@ This data are the links that appear at the bottom of every depication. The data 
 </repo>
 ```
 
-
 #### 3. Your repo is _almost_ ready.
+
 At this point your commit your changes to github and your repo is basically ready to be added into Cydia.
 You can also visit your repo's homepage by going to `https://username.github.io/repo/`.
 It will come with 2 sample packages, Old Package and New Package.
@@ -97,6 +94,7 @@ The tags are pretty much self-explanatory.
 Contact [@reposi3](https://twitter.com/reposi3) for questions.
 
 `info.xml`.
+
 ```xml
 <package>
     <id>com.supermamon.oldpackage</id>
@@ -125,6 +123,7 @@ Contact [@reposi3](https://twitter.com/reposi3) for questions.
 ```
 
 `changelog.xml`.
+
 ```xml
 <changelog>
     <changes>
@@ -133,7 +132,6 @@ Contact [@reposi3](https://twitter.com/reposi3) for questions.
     </changes>
 </changelog>
 ```
-
 
 #### 2. Link the depiction page your tweak's `control` file
 
